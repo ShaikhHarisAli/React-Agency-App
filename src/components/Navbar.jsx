@@ -4,7 +4,7 @@ import {Link} from 'react-scroll'
 // Icons Import
 import { FaXmark ,FaBars} from "react-icons/fa6";
 
-export default function Navbar() {
+ const Navbar = () => {
     const [isMenuOpen,setIsMenuOpen] = useState(false)
     const [isSticky,setIsSticky] = useState(false)
 
@@ -87,3 +87,8 @@ export default function Navbar() {
     </header>
   )
 }
+
+
+export default Navbar;
+
+
