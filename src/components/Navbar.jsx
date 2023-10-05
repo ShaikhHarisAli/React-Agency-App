@@ -4,7 +4,7 @@ import {Link} from 'react-scroll'
 // Icons Import
 import { FaXmark ,FaBars} from "react-icons/fa6";
 
- const Navbar = () => {
+const Navbar = () => {
     const [isMenuOpen,setIsMenuOpen] = useState(false)
     const [isSticky,setIsSticky] = useState(false)
 
